@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="319.0" prefWidth="435.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button fx:id="btnLogin" layoutX="159.0" layoutY="227.0" mnemonicParsing="false" onAction="#clickLogin" prefHeight="54.0" prefWidth="197.0" text="Log in">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Button>
+      <Label fx:id="lblError" layoutX="160.0" layoutY="196.0" textFill="#e41919">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <TextField fx:id="txtLogin" layoutX="207.0" layoutY="96.0" promptText="Type here ..." />
+      <Label layoutX="68.0" layoutY="94.0" text="Login :">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="64.0" layoutY="153.0" text="Password :">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="79.0" layoutY="33.0" text="TIPOS - admin portal" textFill="#210f90">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="txtPassword" layoutX="207.0" layoutY="158.0" />
+   </children>
+</Pane>
